@@ -1,0 +1,63 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #1e81a0;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+/* Main styles */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h2 {
+    color: #444;
+}
+
+.electrician {
+    background-color: #f4f4f4;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #71b419;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    header, main, footer {
+        padding: 15px;
+    }
+
+    .electrician {
+        width: auto;
+        margin: 10px 10px;
+    }
+}
